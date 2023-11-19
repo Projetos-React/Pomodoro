@@ -1,0 +1,32 @@
+.settings-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(75, 68, 121);
+    width: 80%;
+    color: blanchedalmond;
+    width: 450px;
+    height: 250px;
+    padding: 25px;
+}
+.settings-container div{
+    display: flex;
+    flex-direction: column;
+}
+.settings-container div input{
+    border:none;
+    outline: none;
+    padding: 4px;
+    background-color: transparent;
+    color: blanchedalmond;
+    border-bottom:1px solid whitesmoke;
+    margin-top: 5px;
+}
+.settings-container div label{
+    margin-top: 15px;
+}
+h2{
+    margin: 0;
+}
+button{
+    margin-top: 35px;
+}
